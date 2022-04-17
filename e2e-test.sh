@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 set -e
 nohup npm run start  >/dev/null 2>&1 &
