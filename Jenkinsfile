@@ -6,6 +6,7 @@ pipeline {
         sh 'npm install'
       } 
     }
+    /*
     stage('unit-tests') {
       steps {
         sh 'npm run unit-test'
@@ -30,6 +31,7 @@ pipeline {
         sh './e2e-test.sh' 
       } 
     }
+    */
     /*
     stage('deliver-image') {
       when {
