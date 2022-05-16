@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'Building......'
-        sh "npm install"
+      //  echo 'Building......'
+        bat npm install
       } 
     }
     /*
