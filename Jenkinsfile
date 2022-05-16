@@ -7,10 +7,10 @@ pipeline {
         bat 'npm install'
       } 
     }
-    /*
+    
     stage('unit-tests') {
       steps {
-        sh 'npm run unit-test'
+        bat 'npm run unit-test'
       } 
     }
     stage('integration-tests') {
@@ -21,10 +21,10 @@ pipeline {
         }
       }
       steps {
-        sh 'npm run integration-test'
+        bat 'npm run integration-test'
       } 
     }
-    stage('e2e-tests') {
+  /*  stage('e2e-tests') {
       when {
         branch 'main'
       }
@@ -32,7 +32,7 @@ pipeline {
         sh './e2e-test.sh' 
       } 
     }
-    */
+    
     /*
     stage('deliver-image') {
       when {
